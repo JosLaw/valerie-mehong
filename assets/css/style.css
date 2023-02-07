@@ -10,3 +10,19 @@ body {
     font-family: BenchNine, sans-serif;
     font-weight: 400;
 }
+
+/* headings */
+
+h1, h2 {
+    font-family: BenchNine, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: aliceblue;
+}
+
+/* navigation */
+
+#menu a {
+    text-decoration: none;
+    
+}
