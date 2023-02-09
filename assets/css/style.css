@@ -18,11 +18,42 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
 }
 
 /* navigation */
 
-#menu a {
+a:link {
+    color: aliceblue;
+    background-color: black;
+}
+
+a:visited {
+    color: aliceblue;
+    background-color: black;
+}
+
+a:hover {
+    color: aqua;
+    background-color: rgb(34, 32, 32);
+}
+
+a:active{
+    color: aqua;
+    background-color: rgb(34, 32, 32);
+}
+
+li {
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    background-color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
     text-decoration: none;
-    
 }
