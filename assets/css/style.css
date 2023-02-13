@@ -11,7 +11,7 @@ body {
     font-weight: 400;
 }
 
-/* headings */
+/* headings & banner */
 
 h1, h2 {
     font-family: BenchNine, sans-serif;
@@ -24,6 +24,12 @@ h1, h2 {
 
 header a {
     text-decoration: none;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('') no-repeat center center;
 }
 
 /* navigation */
@@ -48,7 +54,7 @@ a:active{
     background-color: rgb(34, 32, 32);
 }
 
-li {
+nav li {
     display: inline-block;
     float: right;
     padding: 10px;
@@ -56,4 +62,26 @@ li {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-decoration: none;
+}
+
+.background-color {
+    background-color: black;
+}
+
+/* Bio */
+#bio {
+text-align: center;
+}
+
+#profile-image {
+    background: url(../images/valerie-mehong.jpg) no-repeat center center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+td {
+    padding-right: 5rem;
 }
