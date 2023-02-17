@@ -114,9 +114,25 @@ article p {
 #ninetails-map {
     float: left;
     padding: 1% 5%;
+    height: fit-content;
+    width: fit-content;
 }
 
 #evil-map {
     float: right;
     padding: 1% 5%;
+    height: fit-content;
+    width: fit-content;
+}
+
+table {
+    text-align: center;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em
+}
+
+tbody, th, td {
+    border: 2px solid;
 }
