@@ -136,3 +136,15 @@ table {
 tbody, th, td {
     border: 2px solid;
 }
+
+/* footer */
+
+footer {
+    font-family: BenchNine, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 1em;
+}
