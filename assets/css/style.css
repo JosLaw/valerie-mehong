@@ -159,3 +159,28 @@ footer {
 footer p {
     font-size: xx-small;
 }
+
+/* medium screens 750px wide and below */
+
+@media screen and (max-width: 750px) {
+    
+    #evil-map {
+        float: left;
+    }
+    
+}
+
+/* small screeans 528px wide and below */
+
+@media screen and (max-width: 528px) {
+    
+   #ninetails-map {
+    margin-left: 2em;
+    margin-right: 2em;
+   }
+
+   #evil-map {
+    margin-left: 2em;
+    margin-right: 2em;
+   }
+}
