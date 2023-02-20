@@ -116,6 +116,7 @@ article p {
     padding: 1% 5%;
     height: fit-content;
     width: fit-content;
+    margin-bottom: 2em;
 }
 
 #evil-map {
@@ -123,6 +124,7 @@ article p {
     padding: 1% 5%;
     height: fit-content;
     width: fit-content;
+    margin-bottom: 2em;
 }
 
 table {
@@ -130,7 +132,8 @@ table {
     font-size: larger;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4em
+    margin-top: 4em;
+    margin-bottom: 2em;
 }
 
 tbody, th, td {
@@ -146,5 +149,13 @@ footer {
     color: aliceblue;
     background-color: black;
     text-align: center;
-    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: large;
+}
+
+footer p {
+    font-size: xx-small;
 }
