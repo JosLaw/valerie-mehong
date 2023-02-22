@@ -20,7 +20,7 @@ header {
     z-index: 2;
 }
 
-h1 {
+.title-scroll {
     font-family: BenchNine, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -30,7 +30,7 @@ h1 {
     background-color: black;
 }
 
-h2 {
+.role-scroll {
     font-family: BenchNine, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -50,6 +50,21 @@ header a {
     background-size: cover;
 }
 
+#section-title {
+    font-family: BenchNine, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.gap {
+    width: 100%;
+    height: 3em;
+    background-color: white;
+}
 
 /* navigation */
 
@@ -142,11 +157,15 @@ tbody, th, td {
 
 /* gallery */
 
+#gallery-title {
+    display: inline-block;
+}
+
 .container {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 2em;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -165,6 +184,55 @@ tbody, th, td {
 .gallery-img {
     padding: 1em;
     margin: 1em;
+}
+
+/* contact page */
+
+form {
+	width: 700px;
+	padding: 25px;
+	border-radius: 8px;
+    margin: 5% auto;
+    border: solid 2px;
+    font-family: BenchNine, sans-serif;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.418);
+    top: auto;
+    bottom: auto;
+    position: relative;
+}
+
+legend {
+	font-size: larger;
+	font-weight: 600;
+	text-transform: uppercase;
+    margin: 20px 0 10px 0;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#placements {
+    border: solid;
+}
+
+form p {
+    text-decoration: underline;
+}
+
+.submit {
+    background-color: rgba(0, 0, 0, 0.418);
+    font-family: BenchNine, sans-serif;
+    font-size: large;
+    border: inset black;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 25%;
+    color: aliceblue;
+}
+
+.submit:hover {
+    color: aqua;
+    background-color: rgb(34, 32, 32);
 }
 
 /* footer */

@@ -35,3 +35,4 @@ This website is for London based tattoo artist Valerie Mehong. The objective is 
 
 ## References/Credits
 Code Institute - Initial framework used from template [https://github.com/Code-Institute-Org/gitpod-full-template]
+Imarketinx - Scrolling gallery framework [https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-scroll-snap.html]

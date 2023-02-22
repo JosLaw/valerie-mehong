@@ -17,7 +17,7 @@
         <a href="index.html">
             <h1 class="title-scroll">Valerie Mehong</h1>
         </a>
-        <h2 class="title-scroll">Tattoo Artist</h2>
+        <h2 class="role-scroll">Tattoo Artist</h2>
         <nav>
             <ul id="menu">
                 <li>
@@ -33,7 +33,55 @@
         </nav>
     </header>
     <section>
-        Form
+        <div class="gap"></div>
+    </section>
+    <h2 id="section-title">Contact</h2>
+    <section>
+        <form method="post">
+            <fieldset>
+                <legend>Your details</legend>
+                <div>
+                    <label for="name-field">Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                </div>
+                <div>
+                    <label for="email-field">Email</label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Tattoo details</legend>
+                <div>
+                    <p>Colour of tattoo</p>
+
+                    <input id="black" name="colour" value="black" type="radio" required>
+                    <label for="black-radio">Black and Grey</label>
+
+                    <input id="colour" name="colour" value="colour" type="radio" required>
+                    <label for="colour-radio">Colour</label>
+                </div>
+                <div>
+                    <p>Placement of tattoo</p>
+                    <label for="placement">Where do you want the tattoo?</label>
+                    <input id="placement" list="placements" name="placement" required>
+                    <datalist id="placements">
+                        <option value="Leg">
+                        <option value="Arm">
+                        <option value="Chest">
+                        <option value="Back">
+                        <option value="Stomach">
+                    </datalist>
+                </div>
+                <div>
+                    <label for="description">Describe the tattoo design</label>
+			<br>
+			<textarea id="description" rows="4" cols="87" name="feedback"></textarea>
+                </div>
+            </fieldset>
+            <input class="submit" type="submit" value="Submit">
+		<input class="submit" type="reset" value="Reset Form">
+        </form>
     </section>
     <footer>
         <span>Instagram: </span><a href="https://www.instagram.com/valerie_mehong/?hl=en" target="_blank" rel="noopener"
