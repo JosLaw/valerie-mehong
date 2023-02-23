@@ -83,7 +83,7 @@ a:hover {
     background-color: rgb(34, 32, 32);
 }
 
-a:active{
+a:active {
     color: aqua;
     background-color: rgb(34, 32, 32);
 }
@@ -105,7 +105,7 @@ nav li {
 /* Bio */
 
 #bio {
-text-align: center;
+    text-align: center;
 }
 
 article img {
@@ -151,7 +151,9 @@ table {
     margin-bottom: 2em;
 }
 
-tbody, th, td {
+tbody,
+th,
+td {
     border: 2px solid;
 }
 
@@ -189,9 +191,9 @@ tbody, th, td {
 /* contact page */
 
 form {
-	width: 700px;
-	padding: 25px;
-	border-radius: 8px;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 8px;
     margin: 5% auto;
     border: solid 2px;
     font-family: BenchNine, sans-serif;
@@ -203,12 +205,13 @@ form {
 }
 
 legend {
-	font-size: larger;
-	font-weight: 600;
-	text-transform: uppercase;
+    font-size: larger;
+    font-weight: 600;
+    text-transform: uppercase;
     margin: 20px 0 10px 0;
     text-decoration: underline;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 #placements {
@@ -258,34 +261,44 @@ footer p {
 /* medium screens 750px wide and below */
 
 @media screen and (max-width: 750px) {
-    
+
     #evil-map {
         float: left;
     }
-    
+
 }
 
-/* small screeans 528px wide and below */
+/* small screeans 530px wide and below */
 
-@media screen and (max-width: 528px) {
-    
-   #ninetails-map {
-    margin-left: 2em;
-    margin-right: 2em;
-   }
+@media screen and (max-width: 530px) {
 
-   #evil-map {
-    margin-left: 2em;
-    margin-right: 2em;
-   }
+    #ninetails-map {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #evil-map {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    table {
+        margin-top: 1em;
+    }
 }
 
 /* smaller screens 350px wide and below */
 
 @media screen and (max-width: 350px) {
-
+    
     .gallery-img {
         width: 10em;
     }
-    
+
+    #description {
+        width: 60%;
+    }
+
 }

@@ -1,6 +1,6 @@
 # Overview
 
-This website is for London based tattoo artist Valerie Mehong. The objective is to advertise/promote her work, provide addresses for current workplaces, and contact her for appointments or enquiries.
+This website is for London based tattoo artist Valérie Mehong. The objective is to advertise/promote her work, provide addresses for current workplaces, and contact her for appointments or enquiries.
 
 ## Goals/Expectations
 1. Provide information on the experience of the artist, and location
@@ -36,3 +36,5 @@ This website is for London based tattoo artist Valerie Mehong. The objective is 
 ## References/Credits
 Code Institute - Initial framework used from template [https://github.com/Code-Institute-Org/gitpod-full-template]
 Imarketinx - Scrolling gallery framework [https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-scroll-snap.html]
+Code Institute Coder's Coffeehouse - Aspects used for form on Contact page
+Ninetails Tattoo Studio - Picture and bio information for Valérie Mehong [https://www.ninetailstattoo.com/]
