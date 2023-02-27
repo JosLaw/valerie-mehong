@@ -21,7 +21,6 @@ header {
 }
 
 .title-scroll {
-    font-family: BenchNine, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: aliceblue;
@@ -31,7 +30,6 @@ header {
 }
 
 .role-scroll {
-    font-family: BenchNine, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: aliceblue;
@@ -43,6 +41,7 @@ header a {
     text-decoration: none;
 }
 
+/* [ref 8] */
 #hero-image {
     height: 500px;
     width: 100%;
@@ -50,8 +49,7 @@ header a {
     background-size: cover;
 }
 
-#section-title {
-    font-family: BenchNine, sans-serif;
+.section-title {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: aliceblue;
@@ -68,22 +66,22 @@ header a {
 
 /* navigation */
 
-a:link {
+.links:link {
     color: aliceblue;
     font-size: larger;
 }
 
-a:visited {
+.links:visited {
     color: aliceblue;
     background-color: black;
 }
 
-a:hover {
+.links:hover {
     color: aqua;
     background-color: rgb(34, 32, 32);
 }
 
-a:active {
+.links:active {
     color: aqua;
     background-color: rgb(34, 32, 32);
 }
@@ -109,6 +107,8 @@ nav li {
 }
 
 article img {
+    width: 204px;
+    height: 294px;
     padding: 1em;
     margin: 1em;
     display: inline-block;
@@ -157,7 +157,7 @@ td {
     border: 2px solid;
 }
 
-/* gallery */
+/* gallery [ref 6] */
 
 #gallery-title {
     display: inline-block;
@@ -183,7 +183,6 @@ figure>img {
     text-align: center;
     background-color: rgb(0, 0, 0);
     border: solid 2px;
-    font-family: BenchNine, sans-serif;
     color: aliceblue;
 }
 
@@ -193,7 +192,17 @@ figure>img {
 }
 
 .gallery-two {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+}
+
+.tooltip-text {
+    width: 120px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
 }
 
 /* contact page */
@@ -204,7 +213,6 @@ form {
     border-radius: 8px;
     margin: 5% auto;
     border: solid 2px;
-    font-family: BenchNine, sans-serif;
     font-size: larger;
     background-color: rgba(0, 0, 0, 0.418);
     top: auto;
@@ -232,8 +240,7 @@ form p {
 
 .submit {
     background-color: rgba(0, 0, 0, 0.418);
-    font-family: BenchNine, sans-serif;
-    font-size: large;
+    font-size: medium;
     border: inset black;
     letter-spacing: 2px;
     text-align: center;
@@ -246,10 +253,17 @@ form p {
     background-color: rgb(34, 32, 32);
 }
 
+/* submission page */
+
+.submission {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10%;
+}
+
 /* footer */
 
 footer {
-    font-family: BenchNine, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: aliceblue;

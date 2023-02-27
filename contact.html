@@ -21,23 +21,22 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" class="links">Contact</a>
                 </li>
                 <li>
-                    <a href="gallery.html">Gallery</a>
+                    <a href="gallery.html" class="links">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="links">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div class="gap"></div>
-    </section>
-    <h2 id="section-title">Contact</h2>
-    <section>
-        <form method="post" action="https://formdump.codeinstitute.net">
+    <div class="gap"></div>
+    <h2 class="section-title">Contact</h2>
+    <!--[ref 3]-->
+    <div>
+        <form action="/submission.html" target="_blank">
             <fieldset>
                 <legend>Your details</legend>
                 <div>
@@ -56,10 +55,10 @@
                     <p>Colour of tattoo</p>
 
                     <input id="black" name="colour" value="black" type="radio" required>
-                    <label for="black-radio">Black and Grey</label>
+                    <label for="black">Black and Grey</label>
 
                     <input id="colour" name="colour" value="colour" type="radio" required>
-                    <label for="colour-radio">Colour</label>
+                    <label for="colour">Colour</label>
                 </div>
                 <div>
                     <p>Placement of tattoo</p>
@@ -82,13 +81,14 @@
             <input class="submit" type="submit" value="Submit">
             <input class="submit" type="reset" value="Reset Form">
         </form>
-    </section>
+    </div>
     <footer>
         <span>Instagram: </span><a href="https://www.instagram.com/valerie_mehong/?hl=en" target="_blank" rel="noopener"
-            aria-label="Visit my Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            aria-label="Visit my Instagram page (opens in a new tab)" class="links"><i
+                class="fa-brands fa-instagram"></i></a>
         <p>Copyright © JLaw 2023</p>
     </footer>
-    <!-- font awesome script -->
+    <!-- [ref 5] -->
     <script src="https://kit.fontawesome.com/aee30e8b0f.js" crossorigin="anonymous"></script>
 </body>
 

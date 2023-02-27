@@ -1,3 +1,4 @@
+<!--[ref 1]-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,52 +20,52 @@
         </a>
         <h2 class="role-scroll">Tattoo Artist</h2>
         <nav>
-            <ul id="menu">
+            <ul>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" class="links">Contact</a>
                 </li>
                 <li>
-                    <a href="gallery.html">Gallery</a>
+                    <a href="gallery.html" class="links">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="links">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section id="hero-image"></section>
+    <div id="hero-image"></div>
+    <!--[ref 2]-->
+    <article id="bio">
+        <h2 class="section-title">About</h2>
+        <img src="assets/images/valerie-mehong.jpg" alt="Valérie Mehong tattooing a client">
+        <p> Coming from Reunion Island, Valérie moved to England and joined Nine Tails Tattoo Studio as a
+            receptionist in 2017.
+            This grew her interest and love of japanese style tattoos. Inspired by the resident tattooers and
+            amazing guest artists,
+            she started her apprenticeship under shop owner Kanae in 2018. In 2022 she became a resident artist at
+            Ninetails Tattoo Studio in Shorditch, London,
+            and Evil from the Needle Tattoo Studio in Camden, London. Despite her main style being Japanese, she is
+            open to other styles if requested.
+        </p>
+    </article>
     <section>
-        <h2 id="section-title">About</h2>
-        <article id="bio">
-            <img src="assets/images/valerie-mehong.jpg" alt="Valérie Mehong tattooing a client">
-            <p> Coming from Reunion Island, Valérie moved to England and joined Nine Tails Tattoo Studio as a
-                receptionist in 2017.
-                This grew her interest and love of japanese style tattoos. Inspired by the resident tattooers and
-                amazing guest artists,
-                she started her apprenticeship under shop owner Kanae in 2018. In 2022 she became a resident artist at
-                Ninetails Tattoo Studio in Shorditch, London,
-                and Evil from the Needle Tattoo Studio in Camden, London. Despite her main style being Japanese, she is
-                open to other styles if requested.
-            </p>
-        </article>
-    </section>
-    <section>
-        <h2 id="section-title">Shop locations & Working Hours</h2>
+        <h2 class="section-title">Shop locations & Working Hours</h2>
         <div id="ninetails-map">
             <h3>Nine Tails Tattoo</h3>
             <p>25 Pitfield Street, London, N1 6HB</p>
+            <!--[ref 3]-->
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.24271274636!2d-0.08598368422932066!3d51.52710797963845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca515eebe99%3A0x920feb2b7d541ae5!2sNine%20Tails%20Tattoo!5e0!3m2!1sen!2suk!4v1676644458349!5m2!1sen!2suk"
-                width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Nine Tails Tattoo map"></iframe>
         </div>
         <div id="evil-map">
             <h3>Evil From the Needle</h3>
             <p>First Floor, 232 Camden High St, London NW1 8QS</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.486334626194!2d-0.14879820054958814!3d51.54098061472586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ae17dcf7725%3A0x25cfd63969f480fe!2sEvil%20From%20The%20Needle!5e0!3m2!1sen!2suk!4v1676644966696!5m2!1sen!2suk"
-                width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Evil from the Needle map"></iframe>
         </div>
         <table>
             <tbody>
@@ -112,11 +113,13 @@
         </table>
     </section>
     <footer>
+        <!--[ref 4]-->
         <span>Instagram: </span><a href="https://www.instagram.com/valerie_mehong/?hl=en" target="_blank" rel="noopener"
-            aria-label="Visit my Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            aria-label="Visit my Instagram page (opens in a new tab)" class="links"><i
+                class="fa-brands fa-instagram"></i></a>
         <p>Copyright © JLaw 2023</p>
     </footer>
-    <!-- font awesome script -->
+    <!--[ref 5]-->
     <script src="https://kit.fontawesome.com/aee30e8b0f.js" crossorigin="anonymous"></script>
 </body>
 
