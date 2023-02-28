@@ -73,7 +73,7 @@ The project was deployed to GitHub Pages. The steps below explain the process.
  - Log in to GitHub and locate the GitHub Repository
  - At the top of the Repository (not top of page), locate the "Settings" button on the menu
  - Scroll down the Settings page until you locate the "GitHub Pages" section
- - Under "Source", click the dropdown called "Main" and select "root"
+ - Under "Source", click the dropdown called "main" and select "root"
  - Click save
  - Scroll back down through the page to locate the now published site link in the "GitHub Pages" section
 
