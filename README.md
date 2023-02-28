@@ -16,32 +16,32 @@ Access the site here:
 ## <center> **Features** </center>
 
  ### **Navigation**
-    The navigation bar is fixed to the viewpoint so as the user scrolls it will remain in view at all times. To differeniate it from the background, it has a slightly translucient background colour with light text. When the curser/mouse hovers over any of the sections, the background and text colour changes to signify which section you have selected. Each navigation title is a link to the named page.
+ The navigation bar is fixed to the viewpoint so as the user scrolls it will remain in view at all times. To differeniate it from the background, it has a slightly translucient background colour with light text. When the curser/mouse hovers over any of the sections, the background and text colour changes to signify which section you have selected. Each navigation title is a link to the named page.
 
 ![screenshot of navigation bar](/assets/images/readme_docs/nav_ss.jpg)
 
  ### **Header**
-    The header contains the name of the artist for whom the website is for. This is fixed to the viewpoint across all pages. The text is large in a light colour to make it stand out from the black banner background of the block. 
+ The header contains the name of the artist for whom the website is for. This is fixed to the viewpoint across all pages. The text is large in a light colour to make it stand out from the black banner background of the block. 
 
 ![screenshot of header stating "Valérie Mehong"](/assets/images/readme_docs/header2_ss.jpg)
 
  ### **Shop Locations**
-    Embedded google maps have been placed on the page along with the written address of the tattoo studios. The maps are interactive and will open to full size on a new tab when clicked.
+ Embedded google maps have been placed on the page along with the written address of the tattoo studios. The maps are interactive and will open to full size on a new tab when clicked.
 
 ![screenshot of a Google Map](/assets/images/readme_docs/map_ss.jpg)
 
  ### **Gallery**
-    Pictures of the artist's work have been presented within scrolling galleries. One gallery showcases Japanese style work, whereas the other gallery showcases work in other styles. The user can scroll through the gallery by moving the cursor onto the gallery and dragging it left or right. There is also a scroll bar underneath the galleries to assist with the scroll function. The user can also click on the image and use keyboard arrow keys to move between images. As it is a snap scroll, the next image will snap to the centre of the viewport within its container.
+ Pictures of the artist's work have been presented within scrolling galleries. One gallery showcases Japanese style work, whereas the other gallery showcases work in other styles. The user can scroll through the gallery by moving the cursor onto the gallery and dragging it left or right. There is also a scroll bar underneath the galleries to assist with the scroll function. The user can also click on the image and use keyboard arrow keys to move between images. As it is a snap scroll, the next image will snap to the centre of the viewport within its container.
 
 ![screenshot of a picture gallery](/assets/images/readme_docs/gallery_ss.jpg)
 
  ### **Contact**
-    A form has been created on the contact page for tattoo enquires. All of the boxes must have an input in order to be submitted. It includes a variety of input options including email to ensure a standard format email address is entered, radio buttons, free text with drop down suggestions, and a larger free text box for a description. The submit button is linked to another page which opens in a new tab when clicked. As this project is for educational purposes only at this point, the method attribute and subsequent "post" value has been omitted. No user input will be collected.
+ A form has been created on the contact page for tattoo enquires. All of the boxes must have an input in order to be submitted. It includes a variety of input options including email to ensure a standard format email address is entered, radio buttons, free text with drop down suggestions, and a larger free text box for a description. The submit button is linked to another page which opens in a new tab when clicked. As this project is for educational purposes only at this point, the method attribute and subsequent "post" value has been omitted. No user input will be collected.
 
 ![screenshot of form](/assets/images/readme_docs/form_ss.jpg)
  
  ### **Footer**
-    A clickable icon has been added to the footer of each page. The icon is linked to an instagram page which will open in a new tab when clicked.
+  A clickable icon has been added to the footer of each page. The icon is linked to an instagram page which will open in a new tab when clicked.
 
 ![screenshot of website footer](/assets/images/readme_docs/footer_ss.jpg)
 
