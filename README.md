@@ -49,11 +49,13 @@ Access the site here: https://joslaw.github.io/valerie-mehong/
 
 ## **Testing**
 
+The site has been tested on laptop and mobile phone devices, using a Google Chrome browser with no issues noted.
+
 ---
 
 ## **Bugs**
 
-On deploying the site, the link to the submission page stopped working
+On deploying the site, the link to the submission page stopped working. On reflection it was noted the location link was incorrect. Location path corrected and link now working as planned
 
 ---
 
