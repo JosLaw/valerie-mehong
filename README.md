@@ -16,7 +16,7 @@ Access the site here: https://joslaw.github.io/valerie-mehong/
 ## **Design**
 The website utilises a minimalistic colour pallete of black and white tones for background colours. The font is an imported font called BenchNine. All headings are in a light colour called Aliceblue '#F0F8FF', with the font colour of the paragraphs being black. The links, excluding the header title, change colour to Aqua on hover action.
 
-The layout was planned using a programme called Balsamiq to create the wireframes. You can find the wireframes here: [Wireframes](https://github.com/JosLaw/valerie-mehong/blob/main/assets/images/readme_docs/wireframes.jpg) 
+The layout was planned using a programme called Balsamiq to create the wireframes. You can find the wireframes here: [wireframes](https://github.com/JosLaw/valerie-mehong/blob/main/assets/images/readme_docs/wireframes.jpg) 
 
 ---
 
