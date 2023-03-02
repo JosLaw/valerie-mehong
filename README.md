@@ -13,15 +13,22 @@ Access the site here: https://joslaw.github.io/valerie-mehong/
 
 ---
 
+## **Design**
+The website utilises a minimalistic colour pallete of black and white tones for background colours. The font is an imported font called BenchNine. All headings are in a light colour called Aliceblue '#F0F8FF', with the font colour of the paragraphs being black. The links, excluding the header title, change colour to Aqua on hover action.
+
+The layout was planned using a programme called Balsamiq to create the wireframes. You can find the wireframes here: [Wireframes](https://github.com/JosLaw/valerie-mehong/blob/main/assets/images/readme_docs/wireframes.jpg) 
+
+---
+
 ## <center> **Features** </center>
 
  ### **Navigation**
- The navigation bar is fixed to the viewpoint so as the user scrolls it will remain in view at all times. To differeniate it from the background, it has a slightly translucient background colour with light text. When the curser/mouse hovers over any of the sections, the background and text colour changes to signify which section you have selected. Each navigation title is a link to the named page.
+ The navigation bar is fixed to the viewpoint so as the user scrolls it will remain in view at all times. This is so the user can navigate the site easily without needing to scroll to the top of the page. To differeniate it from the background, it has a slightly translucient background colour with light text. When the curser/mouse hovers over any of the sections, the background and text colour changes to signify which section you have selected. Each navigation title is a link to the named page.
 
 ![screenshot of navigation bar](/assets/images/readme_docs/nav_ss.jpg)
 
  ### **Header**
- The header contains the name of the artist for whom the website is for. This is fixed to the viewpoint across all pages. The text is large in a light colour to make it stand out from the black banner background of the block. It is also linked to the landing/index page.
+ The header contains the name of the artist for whom the website is for. This is fixed to the viewpoint across all pages. The text is large in a light colour to make it stand out from the black banner background of the block. It is also linked to the landing/index page. This will keep the artist's name at the forefront of the user's mind whilst interacting with the site
 
 ![screenshot of header stating "Valérie Mehong"](/assets/images/readme_docs/header2_ss.jpg)
 
@@ -36,12 +43,12 @@ Access the site here: https://joslaw.github.io/valerie-mehong/
 ![screenshot of a picture gallery](/assets/images/readme_docs/gallery_ss.jpg)
 
  ### **Contact**
- A form has been created on the contact page for tattoo enquires. All of the boxes must have an input in order to be submitted. It includes a variety of input options including email to ensure a standard format email address is entered, radio buttons, free text with drop down suggestions, and a larger free text box for a description. The submit button is linked to another page which opens in a new tab when clicked. As this project is for educational purposes only at this point, the method attribute and subsequent "post" value has been omitted. No user input will be collected.
+ A form has been created on the contact page for tattoo enquires. All of the boxes must have an input in order to be submitted. It includes a variety of input options including email to ensure a standard format email address is entered, radio buttons, free text with drop down suggestions, and a larger free text box for a description. The submit button is linked to another page which opens in a new tab when clicked. As this project is for educational purposes only at this point, the method attribute and subsequent "post" value has been omitted. ***No user input will be collected or forwarded to the artist***.
 
 ![screenshot of form](/assets/images/readme_docs/form_ss.jpg)
  
  ### **Footer**
- A clickable icon has been added to the footer of each page. The icon is linked to an instagram page which will open in a new tab when clicked.
+ A clickable icon has been added to the footer of each page. The icon is linked to the artist's instagram page which will open in a new tab when clicked.
 
 ![screenshot of website footer](/assets/images/readme_docs/footer_ss.jpg)
 
