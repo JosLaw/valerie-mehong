@@ -21,7 +21,7 @@ Access the site here: https://joslaw.github.io/valerie-mehong/
 ![screenshot of navigation bar](/assets/images/readme_docs/nav_ss.jpg)
 
  ### **Header**
- The header contains the name of the artist for whom the website is for. This is fixed to the viewpoint across all pages. The text is large in a light colour to make it stand out from the black banner background of the block. 
+ The header contains the name of the artist for whom the website is for. This is fixed to the viewpoint across all pages. The text is large in a light colour to make it stand out from the black banner background of the block. It is also linked to the landing/index page.
 
 ![screenshot of header stating "Valérie Mehong"](/assets/images/readme_docs/header2_ss.jpg)
 
@@ -49,13 +49,17 @@ Access the site here: https://joslaw.github.io/valerie-mehong/
 
 ## **Testing**
 
-The site has been tested on laptop and mobile phone devices, using a Google Chrome browser with no issues noted.
+The site has been tested on a variety of devices and browsers to check all functions work correctly. These include the following:
+ - Laptop on Google Chrome browser
+ - Android mobile phone on Google Chrome browser
+ - Iphone mobile phone on Safari broswer
+ - Kindle tablet on Silk on browser
 
 ---
 
 ## **Bugs**
 
-On deploying the site, the link to the submission page stopped working. On reflection it was noted the location link was incorrect. Location path corrected and link now working as planned
+On deploying the site, the link to the submission page stopped working. On reflection it was noted the location link was incorrect. Location path corrected and link now working as planned.
 
 ---
 
@@ -65,6 +69,15 @@ On deploying the site, the link to the submission page stopped working. On refle
  - Accessibility - Each page has been checked via lighthouse confirming over 60/100 across all areas tested
 
  ![screenshot of lighthouse test results](/assets/images/readme_docs/lighthouse_test.jpg)
+
+---
+
+## **Technologies**
+ - HTML - Core structure and functionality of the site
+ - CSS - Styling of the site
+ - Gitpod - Code editor used to write/design the site
+ - Github - Stores the site code and logged versions
+ - Gitpages - Hosts the live site
 
 ---
 
@@ -106,3 +119,4 @@ Use the below steps to make a Local Clone
 7. Code Institute Coder's Coffeehouse - Aspects used for form on Contact page
 8. [Pavel Danilyuk via Pexels](https://www.pexels.com/photo/close-up-shot-of-a-vintage-tattoo-machine-6593371/)- Hero image stock photo
 9. [Am I Responsive](https://ui.dev/amiresponsive) - Responsive Screen Mockup
+10. [Google fonts](https://fonts.google.com/) - Imported font BenchNine used across the site
