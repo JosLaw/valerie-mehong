@@ -14,9 +14,14 @@ Access the site here: https://joslaw.github.io/valerie-mehong/
 ---
 
 ## **Design**
-The website utilises a minimalistic colour pallete of black and white tones for background colours. The font is an imported font called BenchNine. All headings are in a light colour called Aliceblue '#F0F8FF', with the font colour of the paragraphs being black. The links, excluding the header title, change colour to Aqua on hover action.
+The website utilises a minimalistic colour pallete of black and white tones for background colours. The font is an imported font called BenchNine. All headings are in a light colour called Aliceblue #F0F8FF, with the font colour of the paragraphs being black. The links, excluding the header title, change colour to Aqua on hover action.
 
-The layout was planned using a programme called Balsamiq to create the wireframes. You can find the wireframes here: [wireframes](https://github.com/JosLaw/valerie-mehong/blob/main/assets/images/readme_docs/wireframes.jpg) 
+The initial layout was planned using a programme called Balsamiq to create the wireframes. This end product adapted over time whilst creating it, and elements were changed or ommitted due to the circumstances at the time. You can find the wireframes here: [wireframes](https://github.com/JosLaw/valerie-mehong/blob/main/assets/images/readme_docs/wireframes.jpg) 
+
+### **Future Updates**
+ - The initial plan was to have a video within the gallery showcasing the artist working. This will be added at some point once the footage has been obtained.
+ - Link the form submission to an email address so that the data collected can be seen by the owner of the email address (artist).
+ - Convert and reupload all images to a webp format for faster loading and increased performance.
 
 ---
 
@@ -57,10 +62,12 @@ The layout was planned using a programme called Balsamiq to create the wireframe
 ## **Testing**
 
 The site has been tested on a variety of devices and browsers to check all functions work correctly. These include the following:
- - Laptop on Google Chrome browser
+ - Laptop on Google Chrome and Microsoft Edge browsers
  - Android mobile phone on Google Chrome browser
  - Iphone mobile phone on Safari broswer
  - Kindle tablet on Silk on browser
+
+ The deployed site was shared amongst friends and family to obtain user experience feedback. Overall the feedback was positive and the set expectations listed above were met. As a result of feedback on the gallery, the tiptool has been amended to include a directional arrow to avoid confusion on how to use the snap scroll. In addtion, the font size on the form has been increased so all sections are clear to read.
 
 ---
 
